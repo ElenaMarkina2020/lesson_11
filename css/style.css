@@ -1,0 +1,441 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+ol li,
+ul li {
+	list-style: none;
+
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Gilroy";
+	
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input[type="text"],
+input[type="email"],
+ input[type="tel"], 
+textarea{
+	-webkit-appearance: none ;
+	-moz-appearance:none ;
+	appearance: none;
+}
+/* ................... */
+
+
+
+._container{
+	
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0px 15px;
+
+}
+.header__container{
+	
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+padding: 30px 0px;
+
+
+	
+}
+.contacts{
+	display: flex;
+	justify-content: space-between;
+}
+.contacts__text{
+width: 193px;
+height: 80px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #5D5D5D;
+}
+.social-contacts{
+display: flex;
+justify-content: space-between;	
+width: 170px;
+
+}
+.social-contacts__whatsapp{
+position: relative;
+width: 43px;
+height: 43px;
+}
+.social-contacts__whatsapp-phone{
+position: absolute;
+bottom: -5px;
+left: 37px;
+}
+.social-contacts__viber{
+	position: relative;
+width: 43px;
+height: 43px;
+}
+
+.social-contacts__viber-phone{
+	position: absolute;
+	left: 35px;
+	bottom: -5px;
+}
+
+
+.social-contacts__telegramm{
+position: relative;
+width: 43px;
+height: 43px;
+
+}
+
+.social-contacts__telegramm-phone{
+	position: absolute;
+	left: 35px;
+	bottom: -3px;
+}
+
+
+
+
+.connection{
+margin-left: 90px;
+position: relative;
+}
+.connection__phone{
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #333333;
+}
+.connection__phone:hover{
+opacity: .7;
+text-decoration: underline;
+}
+.connection__phone-logo{
+position: absolute;
+bottom: 60px;
+left: -25px;
+
+}
+.connection__email{
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+text-align: right;
+color: #333333;
+}
+.connection__email:hover{
+	 opacity: .7;
+	 text-decoration: underline;
+}
+.connection__email-logo{
+position: absolute;
+bottom: 37px;
+}
+
+.contacts__button{
+background: linear-gradient(90deg, #F6BD60 0%, #E88952 100%);
+box-shadow: 0px 8px 18px rgba(242, 147, 81, 0.450503);
+border-radius: 3px;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+width: 195px;
+height: 44px;
+padding: 10px 0px 0px 0px;
+}
+.contacts__button:hover{
+	color: rgb(245, 237, 234);
+	 box-shadow: 3px 5px 7px rgb(197, 128, 100) ;
+} 
+.list{
+display: flex;
+justify-content: space-between;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #333333;
+
+}
+.list__link:hover{
+text-decoration: underline;
+
+text-shadow: 1px 0px 1px  #333333;
+}
+
+
+.about-block{
+background-image: url(../img/bg.png);
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.about-block__image{
+	margin: -470px 0px 0px 600px;
+
+	/* height: 563px;
+	width: 400px;
+	max-width: 100%; */
+	}
+.about-block__title{
+font-weight: 900;
+font-size: 40px;
+line-height: 51px;
+color: #333333;
+padding-top: 120px;
+padding-bottom: 43px;
+max-width: 675px;
+margin-top: 106px;
+}
+.about-block__subtitle{
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #333333;
+padding-bottom: 43px;
+}
+.about-block__subtitle span{
+font-weight: 800;
+font-size: 24px;
+line-height: 31px;
+color: #333333;
+}
+.about-block__button{
+background: linear-gradient(90deg, #87AFF1 0%, #6C80CB 100%, #6C80CB 100%);
+box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.454846);
+border-radius: 3px;
+width: 211px;
+height: 50px;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top:15px ;
+}
+.about-block__button:hover{
+	color: rgb(245, 237, 234);
+	 box-shadow: 3px 5px 7px rgb(117, 173, 236) ;
+}
+.documents__title{
+font-weight: 800;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+color: #333333;
+margin-top: 100px;
+margin-bottom: 30px;
+}
+.top-row{
+	display: flex;
+	}
+
+	.middle-row{
+		display: flex;
+	}
+	.bottom-row{
+		display: flex;
+	}
+.top-row__block,.middle-row__block, .bottom-row__block{
+	
+	width: 262px;
+	height: 190px;
+	background: #ffffff;
+	box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.1);
+	padding: 25px 0px 25px 0px;
+	margin: 0px 25px 20px 0px;
+	font-weight: 600;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+color: #333333;
+cursor: pointer;
+}
+.top-row__block, .middle-row__block, .bottom-row__block:hover{
+box-shadow: 10px 10px 40px rgba(19, 18, 18, 0.267);
+}
+.advantages__description{
+	display: flex;
+	margin-top: 70px;
+	background: #F6F6F6;
+	padding-top: 43px;
+	padding-bottom: 43px;
+
+
+}
+.advantages__container{
+	padding-top: 42px;
+}
+.item-advantages{
+	max-width: 262px;
+	
+}
+.item-advantages__icon{
+width: 98px;
+height: 98px;
+background: #FFFFFF;
+border: 1px solid #E8E8E8;
+border-radius: 50%;
+padding: 25px 0px 25px 0px;
+margin-left: 70px;
+text-align: center;
+}
+.item-advantages__subtitle{
+	font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+color: #333333;
+}
+.item-advantages__text{
+	font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+text-align: center;
+color: #333333;
+max-width: 209px;
+margin: 0px 0px 0px 30px;
+}
+/* .................................. */
+.education-programs__container{
+	max-width: 1172px;
+}
+
+.education-programs__part{
+display: flex;
+}
+ 
+.education-programs__title{
+	font-weight: 800;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+color: #333333;
+margin-top: 56px;
+margin-bottom: 46px;
+}
+.description-education__image{
+max-width: 215px;
+height: 149px;
+cursor: pointer;
+margin: 0px 0px 30px 20px;
+
+}
+
+.description-education__text{
+	font-weight: 800;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+color: #333333;
+cursor: pointer;
+
+}
+.description-education__details{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #53B43B;
+cursor: pointer;
+margin: 0px 0px 22px 0px;
+}
+.description-education__price{
+	font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+color: #333333;
+cursor: pointer;
+}
